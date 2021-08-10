@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 export const NavStyled = styled.div`
@@ -8,11 +9,13 @@ export const NavStyled = styled.div`
     padding: 1rem 0;
 `;
 
-export const Header = styled.h2`
+export const Header = styled(NavLink)`
     font-size: 2rem;
     margin: 0 5rem;
     color: var(--textColor);
-    font-weight: 900;    
+    font-weight: 900;  
+    cursor: pointer;
+    text-decoration: none;
 `;
 
 export const Search = styled.div`
@@ -41,6 +44,7 @@ export const Img = styled.img`
 export const NavList = styled.div`
     background-color: var(--navColor);
     margin: 1rem 0;
+    padding: 2rem 0;
     display: flex;
     justify-content: space-evenly;
     
@@ -52,19 +56,24 @@ export const NavList = styled.div`
     }
 `;
 
-export const Li = styled.li`
+export const StyledNavLink = styled(NavLink)`
     list-style: none;
     font-size: 1.5rem;
     display: flex;
     align-items: center;
     color: var(--textColor);
     cursor: pointer;
+    text-decoration: none;
 
     @media (max-width: 900px){
         flex-direction: column;
         margin: 1rem 0;
         padding: 1rem 0;
         user-select: none;
+    }
+
+    &.${props => props.activeClassName}{
+        color: #ffffffB3;
     }
 `;
 

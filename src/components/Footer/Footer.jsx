@@ -7,7 +7,7 @@ function Footer() {
     return (
         <>
             <StyledFooter>
-                <Span>@{currentYear.getFullYear()} TechBlue</Span>
+                <Span>@ {currentYear.getFullYear()} TechBlue</Span>
             </StyledFooter> 
         </>
     );
