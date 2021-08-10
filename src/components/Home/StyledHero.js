@@ -39,6 +39,7 @@ export const Items = styled.div`
 
 export const Img = styled.img`
     width: 100%;
+    border-radius: 5px;
     
 `;
 

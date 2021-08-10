@@ -35,7 +35,7 @@ export const Items = styled.div`
 `;
 
 export const Img = styled.img`
-    max-width: 50%;
+    max-width: 40%;
     border-radius: 5px;
 
     @media  (max-width: 800px){
