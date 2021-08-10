@@ -43,8 +43,9 @@ export const NavList = styled.div`
     margin: 1rem 0;
     display: flex;
     justify-content: space-evenly;
-
+    
     @media (max-width: 900px){
+
         flex-direction: column;
         padding-top: 2rem;
         display: ${({isOpen}) => (isOpen? "block": "none")};
@@ -71,7 +72,7 @@ export const Hamburger = styled.div`
     display: none;
     top: 2%;
     right: 11%;
-
+    
     @media (max-width: 900px){
         display: block;
     }
