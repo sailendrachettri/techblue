@@ -11,5 +11,7 @@ export const StyledFooter = styled.div`
 export const Span = styled.span`
     font-size: 1.2rem;
     color: var(--textColor);
+    font-family: var(--fontAll);
+    font-weight: 700;
     
 `;

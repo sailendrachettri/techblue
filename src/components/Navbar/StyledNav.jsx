@@ -12,10 +12,11 @@ export const NavStyled = styled.div`
 export const Header = styled(NavLink)`
     font-size: 2rem;
     margin: 0 5rem;
-    color: var(--textColor);
-    font-weight: 900;  
+    color: var(--textColor); 
     cursor: pointer;
     text-decoration: none;
+    font-family: var(--fontAll);
+    font-weight: 700;
 `;
 
 export const Search = styled.div`
@@ -32,13 +33,15 @@ export const Input = styled.input`
     border: none;
     border-radius: 5px;
     outline: none;
+    font-family: var(--fontAll);
+    font-weight: 400;
 `;
 
 export const Img = styled.img`
     position: relative;
     right: 14%;
     width: 20px;
-    top: 6px;
+    top: 4px;
 `;
 
 export const NavList = styled.div`
@@ -64,6 +67,8 @@ export const StyledNavLink = styled(NavLink)`
     color: var(--textColor);
     cursor: pointer;
     text-decoration: none;
+    font-family: var(--fontAll);
+    font-weight: 700;
 
     @media (max-width: 900px){
         flex-direction: column;

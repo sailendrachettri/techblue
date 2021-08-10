@@ -12,6 +12,8 @@ export const H2 = styled.h2`
     color: var(--textColor);
     border-bottom: 5px solid #ffffff40;
     display: inline;
+    font-family: var(--fontAll);
+    font-weight: 700;
 
     @media  (max-width: 800px){
         text-align: center;
@@ -57,15 +59,21 @@ export const Tag = styled.p`
     border-radius: 6px;
     color: var(--textColor);
     width: fit-content;
+    font-family: var(--fontAll);
+    font-weight: 400;
 `;
 
 export const Title = styled.p`
     font-size: 2rem;
     color: white;
+    font-family: var(--fontAll);
+    font-weight: 700;
 `;
 
 export const Desc = styled.p`
     font-size: 1.2rem;
     color: var(--textColor);
     margin: 0;
+    font-family: var(--fontAll);
+    font-weight: 400;
 `;

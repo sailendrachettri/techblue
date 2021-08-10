@@ -64,12 +64,16 @@ export const Tags = styled.p`
     padding: 3px 8px;
     border-radius: 6px;
     color: var(--textColor);
+    font-family: var(--fontAll);
+    font-weight: 400;
 `;
 
 export const PublishDate = styled.p`
     opacity: 0.6;
     margin-left: 1rem;
     color: var(--textColor);
+    font-family: var(--fontAll);
+    font-weight: 400;
 `;
 
 
@@ -78,6 +82,8 @@ export const Desc = styled.div`
     font-size: 1.5rem;
     border-radius: 1px solid red;
     color: var(--textColor);
+    font-family: var(--fontAll);
+    font-weight: 400;
     
 `;
 
@@ -85,5 +91,7 @@ export const Desc = styled.div`
 export const AuthorName = styled.div`
     opacity: 0.6;
     color: var(--textColor);
+    font-family: var(--fontAll);
+    font-weight: 400;
     
 `;

@@ -13,12 +13,16 @@ export const Items = styled.div`
 export const H2 = styled.h2`
     font-size: 3rem;
     color: var(--textColor);
+    font-family: var(--fontAll);
+    font-weight: 700;
 `;
 
 export const Desc = styled.p`
     font-size: 2rem;
     max-width: 50%;
     color: var(--textColor);
+    font-family: var(--fontAll);
+    font-weight: 400;
 
     @media (max-width: 700px){
         max-width: 90%;

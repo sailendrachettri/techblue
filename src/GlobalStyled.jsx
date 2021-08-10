@@ -14,5 +14,7 @@ export const GlobalStyle = createGlobalStyle`
         --tagsColor: #5089C6;
         --textColor: #ffffff;
         --navColor: #5089C6;
+
+        --fontAll: 'Gowun Batang', serif;
     }
 `;
