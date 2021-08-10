@@ -1,14 +1,14 @@
 import React from 'react';
 import {Switch, Route} from 'react-router-dom';
-import Footer from './components/Footer/Footer';
-import Home from './components/Home/Home';
-import Nav from './components/Navbar/Nav';
-import WebDev from './components/WebDev/Webdev';
-import Frontend from './components/Frontend/Frontend';
-import Backend from './components/Backend/Backend';
-import Interview from './components/Interview/Interview';
+import Interview from './components/Posts/Interview';
+import WebDev from './components/Posts/Webdev';
+import Backend from './components/Posts/Backend';
+import Frontend from './components/Posts/Frontend';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
+import Home from './components/Home/Home';
+import Footer from './components/Footer/Footer';
+import Nav from './components/Navbar/Nav';
 import { GlobalStyle } from './GlobalStyled';
 
 function App() {
