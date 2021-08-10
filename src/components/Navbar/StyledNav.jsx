@@ -55,7 +55,6 @@ export const NavList = styled.div`
 export const Li = styled.li`
     list-style: none;
     font-size: 1.5rem;
-    min-height: 15vh;
     display: flex;
     align-items: center;
     color: var(--textColor);
@@ -63,6 +62,9 @@ export const Li = styled.li`
 
     @media (max-width: 900px){
         flex-direction: column;
+        margin: 1rem 0;
+        padding: 1rem 0;
+        user-select: none;
     }
 `;
 
